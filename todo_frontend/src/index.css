@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  /* outline: 1px solid red; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+::selection {
+  color: #ffff;
+  background: rgb(142, 73, 232);
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  padding: 10px;
+  background: blue;
+}
+
+/* The main div */
+.wrapper {
+  background: #f5f5f5;
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 25px;
+  border-radius: 3px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+  border: 2px solid black;
+}
+
+/* header tag of wrapper */
+.wrapper header {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.wrapper .inputField {
+  margin: 20px 0;
+  width: 100%;
+}
+
+.inputField input {
+  padding: 6px;
+  width: 80%;
+  outline: none;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  font-size: 17px;
+  padding-left: 15px;
+}
+.inputField input:focus {
+  border-color: #8e49e8;
+}
+
+.inputField button {
+  font-weight: 400;
+  padding: 6px 20px;
+  border: none;
+  float: right;
+  color: #fff;
+  font-size: 17px;
+  background: #8e49e8;
+  cursor: pointer;
+  border-radius: 3px;
+  opacity: 0.9;
+}
+
+/* Darker buttons on hover */
+.inputField button:hover,
+.footer button:hover {
+  background: #721ce3;
+}
+
+.inputField button.active {
+  opacity: 1;
+}
+
+/* The ul List */
+.wrapper .todoList {
+  min-height: 400px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+/* The ul Items */
+.todoList li {
+  position: relative;
+  list-style: none;
+  float: left;
+  width: 80%;
+  line-height: 40px;
+  background: #ffdab9;
+  border-radius: 3px;
+  padding: 0 15px;
+  cursor: pointer;
+  max-height: 40px;
+  margin-bottom: 10px;
+  border: 1px solid grey;
+}
+
+.delete_btn {
+  float: right;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 6px 10px;
+}
+
+.wrapper .footer {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer button {
+  padding: 6px 10px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-weight: 400;
+  font-size: 17px;
+  background: #8e49e8;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.footer button.active {
+  opacity: 1;
+}
+
+.error {
+  color: red;
+}
