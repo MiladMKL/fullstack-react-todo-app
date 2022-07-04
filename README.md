@@ -25,7 +25,7 @@ To get the application running on your computer, you need MongoDB. You can insta
 **Clone this repository**
 
 ```bash
-$ git clone https://github.com/MiladMKL/react-weather-app.git
+$ git clone https://github.com/MiladMKL/fullstack-react-todo-app.git
 ```
 
 Install the dependencies. Make sure you already have [`nodejs`](https://nodejs.org/en/) & [`npm`](https://www.npmjs.com/) installed in your system.
@@ -40,6 +40,7 @@ After creating a MongoDB Atlas Cluster (link in prerequisites), create a new fil
 Make sure you also set the port to 3001:
 ![MongoDB](./todo_backend/build/mongo.png)
 
+<br>
 Now run mongo.js to create a new entry in MongoDB:
 
 ```bash
