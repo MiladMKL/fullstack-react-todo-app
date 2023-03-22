@@ -16,7 +16,7 @@ Overall, this ToDo application serves as a great example of FullStack developmen
 
 <br>
 
-[**Demo**]: (https://fullstackopen-react-todo-app.herokuapp.com/)
+[**Demo**] (https://fullstackopen-react-todo-app.herokuapp.com/)
 
 ---
 
@@ -51,9 +51,7 @@ Next, run the mongo.js file to create a new entry in MongoDB by running the foll
 node mongo.js <password>
 ```
 
-**Finally, start the application by running the following command:
-
-**
+**Finally, start the application by running the following command:**
 
 ```bash
 $ npm start
